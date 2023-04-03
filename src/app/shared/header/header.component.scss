@@ -1,0 +1,39 @@
+.main {
+  height: 82px;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  span {
+    cursor: pointer;
+  }
+  .menu {
+    display: flex;
+    align-items: center;
+    margin-left: 95px;
+    .list {
+      margin-right: 16px;
+    }
+    .last {
+      margin-right: 0px !important;
+    }
+  }
+}
+.right-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  .log {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .lang {
+      display: flex;
+      align-items: center;
+      margin-left: 16px;
+    }
+    .auth {
+      margin-left: 35px;
+    }
+  }
+}
